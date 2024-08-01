@@ -13,7 +13,7 @@ func NewItem(name string) *Item {
 }
 
 func (i *Item) UpdateAvaliability() {
-	fmt.Printf("O item está em estoque agora.")
+	fmt.Printf("O item está em estoque agora. \n")
 	i.inStock = true
 	i.NotifyAll()
 }
